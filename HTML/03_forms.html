@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        div{
+            padding: 10px;    
+            width: 400px;
+            background-color: lightgray;
+        
+        }
+        td{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Registration</h2>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label>Username : </label></td>
+                    <td><input type="text" autofocus></td>
+                </tr>
+                <tr>
+                    <td><label>Password : </label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Email : </label></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Select : </label></td>
+                    <td>
+                        <select>
+                            <option value="">Software Engineering</option>
+                            <option value="">Sr.Software Engineering</option>
+                            <option value="">Team Lead</option>
+                            <option value="">Project Manager</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Biography : </label></td>
+                    <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Gender : </label></td>
+                    <td>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> FeMale
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">    
+                    </td>
+                    <td>
+                        <span>Accept Terms & Conditions</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Image :
+                    </td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
