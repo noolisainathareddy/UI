@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom effect</title>
+    <style>
+        .zoom{
+            width:400px;
+            height:600px;
+            border: 2px solid black;
+            margin: auto;
+            border-radius: 3px;
+            /* overflow: hidden; */
+            text-align: center;
+            color: black;
+            
+        }
+        .zoom img{
+            width: 100%;
+            height: 100%;
+            transition: all 1s;
+        }
+        .zoom img:hover{
+            transform: scale(1.2,1.2);
+        }
+        .content{
+            background-color: lightgrey;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="zoom">
+        <img src="/pexels-lisa-fotios-12509454.jpg" alt="">
+        <div class="content">
+            <h2>A girl with camera</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero beatae voluptas ut vitae quisquam, neque quidem exercitationem culpa repellendus qui distinctio autem! Odit distinctio quo delectus ducimus commodi, ratione dicta.</p>
+        </div>
+    </div>
+</body>
+</html>
