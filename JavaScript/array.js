@@ -33,3 +33,11 @@ var result = data.filter(
     }
 );
 console.log(result);
+
+var details = {
+    name: "sai",
+    age: 28
+};
+
+var json = JSON.stringify(details);
+console.log(json);
