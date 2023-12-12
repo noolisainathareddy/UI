@@ -1,12 +1,13 @@
-var person =1;
-// console.log(person);
-console.log(typeof person);
-//Data types number,String, boolean, object
-var num = 1.3;
-var city="venpalli";
-var isTrue = false;
+import {loop} from "./loop"; 
 
-console.log(typeof num);
-console.log(typeof city);
-console.log(typeof isTrue);
+function call(num1, num2) {
+    console.log(num1+num2);
+    loop();
+    console.log("called funtions");
+    
 
+}
+
+console.log("Going to call funtions");
+call(4,5);
+console.log("pgm ended");
